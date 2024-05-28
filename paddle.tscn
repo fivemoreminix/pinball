@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://fvcuay8js4eu"]
+
+[ext_resource type="Script" path="res://paddle_char.gd" id="1_phtyl"]
+[ext_resource type="Texture2D" uid="uid://dmydfo4vm3piy" path="res://paddle.png" id="1_ri31r"]
+
+[node name="Paddle" type="CharacterBody2D"]
+script = ExtResource("1_phtyl")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(120, 0)
+texture = ExtResource("1_ri31r")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2(120, 0)
+polygon = PackedVector2Array(53, -24, 84, -20, 106, -15, 122, -9, 128, -3, 128, 3, 122, 9, 107, 15, 84, 20, 52, 24, -28, 30, -108, 32, -124, 13, -128, 0, -124, -13, -108, -31, -31, -30)

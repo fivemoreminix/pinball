@@ -1,8 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://bjbk4m68gmfxu"]
+[gd_scene load_steps=4 format=3 uid="uid://bjbk4m68gmfxu"]
 
-[ext_resource type="Texture2D" uid="uid://dmydfo4vm3piy" path="res://paddle.png" id="1_8iawv"]
-[ext_resource type="Script" path="res://paddle.gd" id="1_tftdp"]
 [ext_resource type="Texture2D" uid="uid://dluftvo7dadpt" path="res://ball.png" id="1_yemty"]
+[ext_resource type="PackedScene" uid="uid://fvcuay8js4eu" path="res://paddle.tscn" id="2_5m5w6"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_da5dp"]
 radius = 32.0
@@ -18,35 +17,9 @@ texture = ExtResource("1_yemty")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Ball"]
 shape = SubResource("CircleShape2D_da5dp")
 
-[node name="PaddleL" type="RigidBody2D" parent="."]
-position = Vector2(271, 564)
-gravity_scale = 1.66533e-16
-continuous_cd = 2
-script = ExtResource("1_tftdp")
-stop_rotation = -45.0
+[node name="Paddle" parent="." instance=ExtResource("2_5m5w6")]
+position = Vector2(177, 546)
 
-[node name="Sprite2D" type="Sprite2D" parent="PaddleL"]
-position = Vector2(120, 0)
-texture = ExtResource("1_8iawv")
-
-[node name="CollisionShape2D" type="CollisionPolygon2D" parent="PaddleL"]
-position = Vector2(-8, 0)
-polygon = PackedVector2Array(0, 0, 20, 31, 132, 27, 194, 22, 223, 17, 243, 12, 252, 7, 255, 3, 256, 0, 255, -3, 251, -7, 242, -12, 222, -17, 191, -22, 132, -27, 68, -29, 20, -31)
-
-[node name="PaddleR" type="RigidBody2D" parent="."]
-position = Vector2(905, 564)
-rotation = -3.14159
-gravity_scale = 1.66533e-16
-continuous_cd = 1
-script = ExtResource("1_tftdp")
+[node name="Paddle2" parent="." instance=ExtResource("2_5m5w6")]
+position = Vector2(710, 536)
 is_left = false
-start_rotation = -180.0
-stop_rotation = -135.0
-
-[node name="Sprite2D" type="Sprite2D" parent="PaddleR"]
-position = Vector2(120, 0)
-texture = ExtResource("1_8iawv")
-
-[node name="CollisionShape2D" type="CollisionPolygon2D" parent="PaddleR"]
-position = Vector2(-8, 0)
-polygon = PackedVector2Array(0, 0, 20, 31, 132, 27, 194, 22, 223, 17, 243, 12, 252, 7, 255, 3, 256, 0, 255, -3, 251, -7, 242, -12, 222, -17, 191, -22, 132, -27, 68, -29, 20, -31)
