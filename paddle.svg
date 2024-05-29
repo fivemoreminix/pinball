@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128"
+   height="64"
+   viewBox="0 0 33.866666 16.933333"
+   version="1.1"
+   id="svg6341"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="paddle.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview6343"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="2.7010662"
+     inkscape:cx="13.883406"
+     inkscape:cy="47.94403"
+     inkscape:window-width="2560"
+     inkscape:window-height="1370"
+     inkscape:window-x="0"
+     inkscape:window-y="240"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid6482"
+       empspacing="4" />
+  </sodipodi:namedview>
+  <defs
+     id="defs6338">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter9351"
+       x="-0.24300001"
+       y="-0.24300001"
+       width="1.486"
+       height="1.486">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.42862498"
+         id="feGaussianBlur9353" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#000000;stroke-width:2.64583;stroke-linejoin:bevel;paint-order:stroke markers fill"
+       id="path6536"
+       cx="5.2916665"
+       cy="8.4666662"
+       r="4.7624998" />
+    <circle
+       style="fill:#000000;stroke-width:2.64583;stroke-linejoin:bevel;paint-order:stroke markers fill"
+       id="path6538"
+       cx="30.691666"
+       cy="8.4666662"
+       r="2.645833" />
+    <path
+       id="rect6540"
+       style="fill:#000000;stroke-width:2.64583;stroke-linejoin:bevel;paint-order:stroke markers fill"
+       d="m 5.2916666,3.7041665 25.3999994,2.1166667 0,5.2916668 -25.3999994,2.116667 z"
+       sodipodi:nodetypes="ccccc" />
+    <circle
+       style="fill:#de8787;stroke-width:2.64583;stroke-linejoin:bevel;paint-order:stroke markers fill"
+       id="circle6543"
+       cx="5.2916665"
+       cy="8.4666662"
+       r="4.2333331" />
+    <circle
+       style="fill:#ffffff;stroke-width:2.64583;stroke-linejoin:bevel;paint-order:stroke markers fill"
+       id="circle7809"
+       cx="5.2916665"
+       cy="8.4666662"
+       r="3.1749997" />
+    <circle
+       style="fill:#de8787;stroke-width:2.64583;stroke-linejoin:bevel;paint-order:stroke markers fill"
+       id="circle6545"
+       cx="30.691666"
+       cy="8.4666662"
+       r="2.1166663" />
+    <circle
+       style="fill:#ffffff;stroke-width:2.64583;stroke-linejoin:bevel;paint-order:stroke markers fill"
+       id="circle7811"
+       cx="30.691666"
+       cy="8.4666662"
+       r="1.058333" />
+    <path
+       id="path6547"
+       style="fill:#de8787;stroke-width:2.64583;stroke-linejoin:bevel;paint-order:stroke markers fill"
+       d="m 5.2916667,4.2333332 25.3999993,2.1166667 0,4.2333331 L 5.2916667,12.7 Z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       id="path7813"
+       style="fill:#ffffff;stroke-width:2.64583;stroke-linejoin:bevel;paint-order:stroke markers fill"
+       d="m 5.2916667,5.2916665 25.3999993,2.1166667 0,2.1166661 -25.3999993,2.1166667 z"
+       sodipodi:nodetypes="ccccc" />
+    <circle
+       style="fill:#000000;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill;filter:url(#filter9351);opacity:0.5"
+       id="path9349"
+       cx="5.2916665"
+       cy="8.4666662"
+       r="2.1166666" />
+    <circle
+       style="fill:#ffffff;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+       id="path9355"
+       cx="5.2916665"
+       cy="8.4666662"
+       r="2.1166666" />
+  </g>
+</svg>

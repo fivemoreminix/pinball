@@ -1,5 +1,6 @@
+@tool
 extends CharacterBody2D
-class_name test_paddle_char
+class_name Paddle
 
 
 @export var is_left        : bool = true
@@ -15,18 +16,19 @@ var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
 
 func _ready():
-	if is_left:
-		rotation         = deg_to_rad(start_rotation)
-		actuate_rotation = deg_to_rad(stop_rotation)
-	else:
-		rotation         = deg_to_rad(start_rotation)
-		actuate_rotation = deg_to_rad(stop_rotation)
+	rotation         = deg_to_rad(start_rotation)
+	actuate_rotation = deg_to_rad(stop_rotation)
 	release_rotation = rotation
 	tween = create_tween()
 
+
+func _process(delta):
+	if !Engine.is_editor_hint(): return
+	rotation = deg_to_rad(start_rotation)
+
+
 func _input(event) -> void:
 	var action = "ui_left" if is_left else "ui_right"
-	
 	if event.is_action_pressed(action):
 		actuate()
 	if event.is_action_released(action):
