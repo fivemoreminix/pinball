@@ -1,29 +1,22 @@
-[gd_scene load_steps=4 format=3 uid="uid://bjbk4m68gmfxu"]
+[gd_scene load_steps=3 format=3 uid="uid://bjbk4m68gmfxu"]
 
-[ext_resource type="Texture2D" uid="uid://dluftvo7dadpt" path="res://ball.png" id="1_yemty"]
+[ext_resource type="PackedScene" uid="uid://ecljegdaqfjf" path="res://ball.tscn" id="1_lu6ji"]
 [ext_resource type="PackedScene" uid="uid://fvcuay8js4eu" path="res://paddle.tscn" id="2_5m5w6"]
-
-[sub_resource type="CircleShape2D" id="CircleShape2D_da5dp"]
-radius = 32.0
 
 [node name="Table" type="Node2D"]
 
-[node name="Ball" type="RigidBody2D" parent="."]
-position = Vector2(465, 346)
-
-[node name="Sprite2D" type="Sprite2D" parent="Ball"]
-texture = ExtResource("1_yemty")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Ball"]
-shape = SubResource("CircleShape2D_da5dp")
+[node name="Ball" parent="." instance=ExtResource("1_lu6ji")]
+position = Vector2(307, 455)
 
 [node name="Paddle" parent="." instance=ExtResource("2_5m5w6")]
-position = Vector2(177, 546)
-start_rotation = 2.08165e-12
-stop_rotation = -45.0
+position = Vector2(230, 1150)
+rotation = 0.349066
+start_rotation = 20.0
+stop_rotation = -20.0
 
 [node name="Paddle2" parent="." instance=ExtResource("2_5m5w6")]
-position = Vector2(710, 536)
+position = Vector2(500, 1150)
+rotation = 2.79253
 is_left = false
-start_rotation = 180.0
-stop_rotation = 225.0
+start_rotation = 160.0
+stop_rotation = 200.0
