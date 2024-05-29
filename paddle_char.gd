@@ -17,19 +17,20 @@ var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
 func _ready():
 	if is_left:
-		rotation         = deg_to_rad(-start_rotation)
-		actuate_rotation = deg_to_rad(-stop_rotation)
+		rotation         = deg_to_rad(start_rotation)
+		actuate_rotation = deg_to_rad(stop_rotation)
 	else:
-		rotation         = deg_to_rad( 180 - start_rotation )
-		actuate_rotation = deg_to_rad( 180 - stop_rotation )
+		rotation         = deg_to_rad(start_rotation)
+		actuate_rotation = deg_to_rad(stop_rotation)
 	release_rotation = rotation
 	tween = create_tween()
 
 func _input(event) -> void:
-	if event.is_action_pressed("ui_left" if is_left else "ui_right"):
-		actuate()
+	var action = "ui_left" if is_left else "ui_right"
 	
-	if event.is_action_released("ui_left" if is_left else "ui_right"):
+	if event.is_action_pressed(action):
+		actuate()
+	if event.is_action_released(action):
 		release()
 
 

@@ -19,7 +19,11 @@ shape = SubResource("CircleShape2D_da5dp")
 
 [node name="Paddle" parent="." instance=ExtResource("2_5m5w6")]
 position = Vector2(177, 546)
+start_rotation = 2.08165e-12
+stop_rotation = -45.0
 
 [node name="Paddle2" parent="." instance=ExtResource("2_5m5w6")]
 position = Vector2(710, 536)
 is_left = false
+start_rotation = 180.0
+stop_rotation = 225.0
