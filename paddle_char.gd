@@ -6,7 +6,6 @@ class_name test_paddle_char
 @export var start_rotation : float = -10.0
 @export var stop_rotation  : float = 45.0
 @export var rotation_time  : float = 0.05
-@export var torque         : float = 100_000_000 # I have no idea what unit this is in
 
 var tween                  : Tween
 var actuate_rotation       : float
