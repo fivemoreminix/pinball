@@ -1,4 +1,5 @@
 extends RigidBody2D
+class_name test_paddle_phys
 
 @export var is_left: bool = true
 @export var start_rotation: float = 0.0
