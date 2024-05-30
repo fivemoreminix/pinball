@@ -72,16 +72,16 @@ position = Vector2(640, 808)
 shape = SubResource("RectangleShape2D_umo07")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="playfield"]
-polygon = PackedVector2Array(704, 16, 704, 336, 696, 256, 664, 176, 616, 104, 544, 56, 464, 24, 384, 16)
+polygon = PackedVector2Array(704, 16, 704, 336, 694, 253, 662, 176, 611, 109, 545, 58, 467, 26, 384, 16)
 
 [node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="playfield"]
 position = Vector2(0, 720)
 rotation = -1.57079
-polygon = PackedVector2Array(704, 16, 704, 336, 696, 256, 664, 176, 616, 104, 544, 56, 464, 24, 384, 16)
+polygon = PackedVector2Array(704, 16, 704, 336, 694.001, 252.998, 662, 175.999, 611, 108.999, 545, 57.9988, 467, 25.999, 384, 16)
 
 [node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="playfield"]
 position = Vector2(592, 328)
-polygon = PackedVector2Array(56, -64, 24, -128, -16, -184, -64, -224, -32, -184, -8, -152, 24, -72, 32, 8, 64, 8)
+polygon = PackedVector2Array(56, -64, 27, -128, -16, -184, -61, -218, -10, -152, 22, -75, 32, 8, 64, 8)
 
 [node name="CollisionPolygon2D4" type="CollisionPolygon2D" parent="playfield"]
 position = Vector2(144, 1040)
