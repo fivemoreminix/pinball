@@ -28,7 +28,7 @@ func _process(delta):
 
 
 func _input(event) -> void:
-	var action = "ui_left" if is_left else "ui_right"
+	var action = "left_paddle" if is_left else "right_paddle"
 	if event.is_action_pressed(action):
 		actuate()
 	if event.is_action_released(action):

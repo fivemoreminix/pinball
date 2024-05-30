@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://47o8lp1qyxpn"]
+
+[ext_resource type="Script" path="res://catch.gd" id="1_0lm4t"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_l44vo"]
+distance = -8.0
+
+[node name="catch" type="Area2D"]
+script = ExtResource("1_0lm4t")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(320, 1304)
+shape = SubResource("WorldBoundaryShape2D_l44vo")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
