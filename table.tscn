@@ -1,9 +1,10 @@
-[gd_scene load_steps=12 format=3 uid="uid://bjbk4m68gmfxu"]
+[gd_scene load_steps=13 format=3 uid="uid://bjbk4m68gmfxu"]
 
 [ext_resource type="PackedScene" uid="uid://ecljegdaqfjf" path="res://ball.tscn" id="1_lu6ji"]
 [ext_resource type="PackedScene" uid="uid://fvcuay8js4eu" path="res://paddle.tscn" id="2_5m5w6"]
 [ext_resource type="PackedScene" uid="uid://piv2npdng067" path="res://plunger.tscn" id="3_xql3i"]
 [ext_resource type="PackedScene" uid="uid://47o8lp1qyxpn" path="res://catch.tscn" id="4_cq5ri"]
+[ext_resource type="PackedScene" uid="uid://bh8ewo3wle0g6" path="res://kicker.tscn" id="4_qj2ie"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_43jvb"]
 size = Vector2(16, 1280)
@@ -33,7 +34,7 @@ height = 96.0
 [node name="Table" type="Node2D"]
 
 [node name="Ball" parent="." instance=ExtResource("1_lu6ji")]
-position = Vector2(600, 392)
+position = Vector2(672, 1184)
 
 [node name="Paddle" parent="." instance=ExtResource("2_5m5w6")]
 position = Vector2(192, 1152)
@@ -50,6 +51,12 @@ stop_rotation = 200.0
 
 [node name="Plunger" parent="." instance=ExtResource("3_xql3i")]
 position = Vector2(680, 1232)
+
+[node name="kicker" parent="." instance=ExtResource("4_qj2ie")]
+position = Vector2(32, 1176)
+
+[node name="kicker2" parent="." instance=ExtResource("4_qj2ie")]
+position = Vector2(608, 1176)
 
 [node name="playfield" type="StaticBody2D" parent="."]
 
@@ -81,7 +88,7 @@ polygon = PackedVector2Array(704, 16, 704, 336, 694.001, 252.998, 662, 175.999, 
 
 [node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="playfield"]
 position = Vector2(592, 328)
-polygon = PackedVector2Array(56, -64, 27, -128, -16, -184, -61, -218, -10, -152, 22, -75, 32, 8, 64, 8)
+polygon = PackedVector2Array(55, -63, 27, -128, -16, -184, -60, -218, -10, -152, 22, -75, 32, 8, 64, 8)
 
 [node name="CollisionPolygon2D4" type="CollisionPolygon2D" parent="playfield"]
 position = Vector2(144, 1040)
@@ -124,9 +131,9 @@ position = Vector2(432, 1000)
 polygon = PackedVector2Array(56, -8, 8, 88, 16, 88, 64, 56, 64, -8)
 
 [node name="TEMPORARY_-_DELETE_LATER" type="CollisionPolygon2D" parent="playfield"]
-position = Vector2(24, 784)
-polygon = PackedVector2Array(-8, -80, -8, 208, 88, 208)
+position = Vector2(24, 528)
+polygon = PackedVector2Array(-8, -80, -8, 240, 72, 112)
 
 [node name="TEMPORARY_-_DELETE_LATER2" type="CollisionPolygon2D" parent="playfield"]
-position = Vector2(536, 784)
-polygon = PackedVector2Array(88, -80, -8, 208, 88, 208)
+position = Vector2(536, 528)
+polygon = PackedVector2Array(88, -80, 8, 112, 88, 240)

@@ -1,10 +1,10 @@
 @tool
-extends CharacterBody2D
-class_name Paddle
+extends PinJoint2D
+class_name PaddlePhys2
 
 
 @export var is_left        : bool    = true
-@export var start_rotation : float   = 15.0
+@export var start_rotation : float   = -10.0
 @export var stop_rotation  : float   = 45.0
 @export var rotation_time  : float   = 0.025
 
@@ -24,7 +24,7 @@ func _ready():
 
 func _process(delta):
 	if !Engine.is_editor_hint(): return
-	rotation = deg_to_rad(start_rotation)
+	$Paddle.rotation = deg_to_rad(start_rotation)
 
 '''
 func _integrate_forces(state):
@@ -36,9 +36,9 @@ func _integrate_forces(state):
 func _input(event) -> void:
 	var action = "left_paddle" if is_left else "right_paddle"
 	if event.is_action_pressed(action):
-		actuate()
+		motor_enabled = true
 	if event.is_action_released(action):
-		release()
+		motor_enabled = false
 
 
 func actuate() -> void:

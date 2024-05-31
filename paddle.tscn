@@ -4,6 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://c0mww0poq7s1a" path="res://paddle.svg" id="2_g53sg"]
 
 [node name="Paddle" type="CharacterBody2D"]
+rotation = 0.261799
+collision_mask = 0
 script = ExtResource("1_phtyl")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]

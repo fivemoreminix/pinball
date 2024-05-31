@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://bm4hq78w5k28i"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_i74ca"]
+size = Vector2(16, 16)
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_4ynp4"]
+
+[node name="Node2D" type="DampedSpringJoint2D"]
+node_a = NodePath("RigidBody2D")
+length = 128.0
+
+[node name="RigidBody2D" type="RigidBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D"]
+shape = SubResource("RectangleShape2D_i74ca")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D"]
+scale = Vector2(16, 16)
+texture = SubResource("PlaceholderTexture2D_4ynp4")
