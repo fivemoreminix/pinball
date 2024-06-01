@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://bh8ewo3wle0g6"]
+
+[ext_resource type="Script" path="res://kicker.gd" id="1_sibgn"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_28lvl"]
+size = Vector2(32, 16)
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_37uxr"]
+
+[node name="kicker" type="Area2D"]
+script = ExtResource("1_sibgn")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_28lvl")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(4.76837e-07, 0)
+scale = Vector2(32, 16)
+texture = SubResource("PlaceholderTexture2D_37uxr")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

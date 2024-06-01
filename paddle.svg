@@ -24,9 +24,9 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="2.7010662"
-     inkscape:cx="13.883406"
-     inkscape:cy="47.94403"
+     inkscape:zoom="10.804265"
+     inkscape:cx="-9.6721065"
+     inkscape:cy="29.01632"
      inkscape:window-width="2560"
      inkscape:window-height="1370"
      inkscape:window-x="0"
@@ -53,64 +53,42 @@
          stdDeviation="0.42862498"
          id="feGaussianBlur9353" />
     </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter15847"
+       x="-0.035262856"
+       y="-0.16456"
+       width="1.0705257"
+       height="1.32912">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.43539831"
+         id="feGaussianBlur15849" />
+    </filter>
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <circle
-       style="fill:#000000;stroke-width:2.64583;stroke-linejoin:bevel;paint-order:stroke markers fill"
+    <path
        id="path6536"
-       cx="5.2916665"
-       cy="8.4666662"
-       r="4.7624998" />
-    <circle
        style="fill:#000000;stroke-width:2.64583;stroke-linejoin:bevel;paint-order:stroke markers fill"
-       id="path6538"
-       cx="30.691666"
-       cy="8.4666662"
-       r="2.645833" />
+       d="M 5.2916666 3.7041666 A 4.7624998 4.7624998 0 0 0 0.52916666 8.4666665 A 4.7624998 4.7624998 0 0 0 5.2916666 13.229166 A 4.7624998 4.7624998 0 0 0 6.058028 13.165088 L 30.691666 11.1125 A 2.645833 2.645833 0 0 0 33.337499 8.4666665 A 2.645833 2.645833 0 0 0 30.691666 5.8208332 L 6.0750813 3.7692789 A 4.7624998 4.7624998 0 0 0 5.2916666 3.7041666 z " />
     <path
-       id="rect6540"
-       style="fill:#000000;stroke-width:2.64583;stroke-linejoin:bevel;paint-order:stroke markers fill"
-       d="m 5.2916666,3.7041665 25.3999994,2.1166667 0,5.2916668 -25.3999994,2.116667 z"
-       sodipodi:nodetypes="ccccc" />
-    <circle
-       style="fill:#de8787;stroke-width:2.64583;stroke-linejoin:bevel;paint-order:stroke markers fill"
        id="circle6543"
-       cx="5.2916665"
-       cy="8.4666662"
-       r="4.2333331" />
-    <circle
-       style="fill:#ffffff;stroke-width:2.64583;stroke-linejoin:bevel;paint-order:stroke markers fill"
+       style="fill:#de8787;stroke-width:2.64583;stroke-linejoin:bevel;paint-order:stroke markers fill"
+       d="M 5.2916666 4.2333332 A 4.2333331 4.2333331 0 0 0 1.0583333 8.4666665 A 4.2333331 4.2333331 0 0 0 5.2916666 12.7 A 4.2333331 4.2333331 0 0 0 5.974829 12.643156 L 30.691666 10.583333 A 2.1166663 2.1166663 0 0 0 32.808333 8.4666665 A 2.1166663 2.1166663 0 0 0 30.691666 6.3499999 L 5.9861978 4.2912109 A 4.2333331 4.2333331 0 0 0 5.2916666 4.2333332 z " />
+    <path
+       id="circle15477"
+       style="mix-blend-mode:normal;fill:#000000;stroke-width:2.64583;stroke-linejoin:bevel;paint-order:stroke markers fill;filter:url(#filter15847);opacity:0.5"
+       d="m 5.2916666,5.2482584 a 3.1749997,3.1749997 0 0 0 -3.175,3.1749999 3.1749997,3.1749997 0 0 0 3.175,3.1749997 3.1749997,3.1749997 0 0 0 0.5095296,-0.04237 L 30.691666,9.4815916 A 1.058333,1.058333 0 0 0 31.749999,8.4232583 1.058333,1.058333 0 0 0 30.691666,7.364925 L 5.8141153,5.2916666 A 3.1749997,3.1749997 0 0 0 5.2916666,5.2482584 Z" />
+    <path
        id="circle7809"
-       cx="5.2916665"
-       cy="8.4666662"
-       r="3.1749997" />
-    <circle
-       style="fill:#de8787;stroke-width:2.64583;stroke-linejoin:bevel;paint-order:stroke markers fill"
-       id="circle6545"
-       cx="30.691666"
-       cy="8.4666662"
-       r="2.1166663" />
-    <circle
        style="fill:#ffffff;stroke-width:2.64583;stroke-linejoin:bevel;paint-order:stroke markers fill"
-       id="circle7811"
-       cx="30.691666"
-       cy="8.4666662"
-       r="1.058333" />
-    <path
-       id="path6547"
-       style="fill:#de8787;stroke-width:2.64583;stroke-linejoin:bevel;paint-order:stroke markers fill"
-       d="m 5.2916667,4.2333332 25.3999993,2.1166667 0,4.2333331 L 5.2916667,12.7 Z"
-       sodipodi:nodetypes="ccccc" />
-    <path
-       id="path7813"
-       style="fill:#ffffff;stroke-width:2.64583;stroke-linejoin:bevel;paint-order:stroke markers fill"
-       d="m 5.2916667,5.2916665 25.3999993,2.1166667 0,2.1166661 -25.3999993,2.1166667 z"
-       sodipodi:nodetypes="ccccc" />
+       d="M 5.2916666 5.2916666 A 3.1749997 3.1749997 0 0 0 2.1166666 8.4666665 A 3.1749997 3.1749997 0 0 0 5.2916666 11.641666 A 3.1749997 3.1749997 0 0 0 5.8011962 11.599292 L 30.691666 9.5249998 A 1.058333 1.058333 0 0 0 31.749999 8.4666665 A 1.058333 1.058333 0 0 0 30.691666 7.4083332 L 5.8141153 5.3350748 A 3.1749997 3.1749997 0 0 0 5.2916666 5.2916666 z " />
     <circle
-       style="fill:#000000;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill;filter:url(#filter9351);opacity:0.5"
+       style="fill:#000000;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill;filter:url(#filter9351);opacity:0.75"
        id="path9349"
        cx="5.2916665"
        cy="8.4666662"

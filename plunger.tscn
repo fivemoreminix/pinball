@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://piv2npdng067"]
+
+[ext_resource type="Script" path="res://plunger.gd" id="1_exu13"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_k71ao"]
+size = Vector2(32, 32)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_toca7"]
+size = Vector2(32, 32)
+
+[node name="Plunger" type="Area2D"]
+script = ExtResource("1_exu13")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("PlaceholderTexture2D_k71ao")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_toca7")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

@@ -23,10 +23,10 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      inkscape:document-units="px"
-     showgrid="true"
+     showgrid="false"
      inkscape:zoom="5.4021324"
-     inkscape:cx="-64.511562"
-     inkscape:cy="68.954252"
+     inkscape:cx="-15.456859"
+     inkscape:cy="-0.6478923"
      inkscape:window-width="2560"
      inkscape:window-height="1370"
      inkscape:window-x="0"
@@ -59,7 +59,7 @@
        cy="8.4666662"
        r="3.96875" />
     <circle
-       style="opacity:1;fill:#808080;stroke:none;stroke-width:0.143315;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+       style="opacity:1;fill:#333333;stroke:none;stroke-width:0.143315;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
        id="path12662"
        cx="8.4666662"
        cy="8.4666662"
@@ -74,7 +74,7 @@
        style="opacity:1;fill:#ffffff;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
        id="path12658"
        cx="8.4666662"
-       cy="6.3499999"
+       cy="6.0854163"
        rx="1.058333"
        ry="1.0583329" />
   </g>
